@@ -28,19 +28,91 @@
   <p>Soy un parrafo</p>
 
   <p>¿Porque la documentacion es nuestra mejor amiga? <a
-      href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Ir a la documentacion</a>
+      href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Ir a
+      la documentacion</a>
   </p>
 
   <h1>Imagenes</h1>
   <p><b>Imagen Externa</b></p>
   <img
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
-    width="200" height="200" alt="img-html" srcset="">
+    width="200" height="200" alt="img-html">
 
   <p><b>Imagen Local</b></p>
-  <img src="./assets/img/imagen.png" width="200" height="200" alt="img-html-css-js" srcset="">
+  <img src="./assets/img/imagen.png" width="200" height="200" alt="img-html-css-js">
 
+
+  <h1>Listas</h1>
+  <h3>Ordenadas</h3>
+  <ol start="3" reversed>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    ...
+    <li>Elemento N</li>
+  </ol>
+  <p>Ordenamos por números</p>
+
+  <ol type="1">
+    <li>Elemento 1
+    <li> Elemento 2
+  </ol>
+
+  <p>Ordenamos por letras</p>
+  <ol type="a">
+    <li>Elemento a
+    <li> Elemento b
+  </ol>
+
+  <p>Ordenamos por números romanos empezando por el 10</p>
+
+  <ol type="I" start="10">
+    <li>Elemento x
+    <li> Elemento xi
+  </ol>
+
+  <h3>No Ordenadas</h3>
+
+  <p>Países del mundo</p>
+
+  <ul>
+    <li>Argentina</li>
+    <li>Perú</li>
+    <li>Chile</li>
+  </ul>
   
+  <ul type="square">
+    <li>Elemento 1
+    <li>Elemento 2
+    <li>Elemento 3
+    <li type="circle">Elemento 4
+  </ul>
+
+  <h3>Listo por Definicion</h3>
+  <!-- Algunos usos comunes para este elemento son implementar un glosario -->
+  <p>Diccionario de la Real Academia</p>
+  <!-- lista de definiciones -->
+  <dl>
+    <!-- termino de la deficion -->
+    <dt>Brujula
+      <!-- descripcion del termino -->
+    <dd>Señórula montada en una escóbula
+    <dt>Oreja
+    <dd>Sesenta minutejos
+  </dl>
+
+  <dl>
+    <dt>Oreja
+    <dd>Primer nivel de desplazamiento
+      <dl>
+        <dd>Segundo nivel de desplazamiento
+          <dl>
+            <dd>Tercer nivel de desplazamiento
+          </dl>
+      </dl>
+    </dd>
+  </dl>
+
+
 
 </body>
 

@@ -17,101 +17,137 @@
 
 <body>
 
-  <a href="index.html">Volver al inicio</a>
 
-  <h1>Introduccion a html</h1>
-  <h2>Soy H2</h2>
-  <h3>Soy H3</h3>
-  <h4>Soy H4</h4>
-  <h5>Soy H2</h5>
-  <h5>Soy H6</h5>
-  <p>Soy un parrafo</p>
-
-  <p>¿Porque la documentacion es nuestra mejor amiga? <a
-      href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Ir a
-      la documentacion</a>
-  </p>
-
-  <h1>Imagenes</h1>
-  <p><b>Imagen Externa</b></p>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
-    width="200" height="200" alt="img-html">
-
-  <p><b>Imagen Local</b></p>
-  <img src="./assets/img/imagen.png" width="200" height="200" alt="img-html-css-js">
-
-
-  <h1>Listas</h1>
-  <h3>Ordenadas</h3>
-  <ol start="3" reversed>
-    <li>Elemento 1</li>
-    <li>Elemento 2</li>
-    ...
-    <li>Elemento N</li>
-  </ol>
-  <p>Ordenamos por números</p>
-
-  <ol type="1">
-    <li>Elemento 1
-    <li> Elemento 2
+  <ol>
+    <li><a href="index.html">Volver al inicio</a></li>
+    <li><a href="#cabeceras">Ir a las Cabezeras</a></< /li>
+    <li><a href="#parrafos">Parrafos</a></< /li>
+    <li><a href="#imagenes">Imagenes</a></< /li>
+    <li><a href="#listas">Listas</a></< /li>
+    <li><a href="#enlaces">Enlaces</a></< /li>
   </ol>
 
-  <p>Ordenamos por letras</p>
-  <ol type="a">
-    <li>Elemento a
-    <li> Elemento b
-  </ol>
+  <section>
+    <h1 id="cabezera">Cabezeras</h1>
+    <h2>Soy H2</h2>
+    <h3>Soy H3</h3>
+    <h4>Soy H4</h4>
+    <h5>Soy H2</h5>
+    <h5>Soy H6</h5>
+    <p>Soy un parrafo</p>
+  </section>
 
-  <p>Ordenamos por números romanos empezando por el 10</p>
+  <section>
+    <h1 id="parrafos">Parrafo</h1>
+    <p>¿Porque la documentacion es nuestra mejor amiga? <a
+        href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Ir a
+        la documentacion</a>
+    </p>
+  </section>
 
-  <ol type="I" start="10">
-    <li>Elemento x
-    <li> Elemento xi
-  </ol>
+  <section>
+    <h1 id="imagenes">Imagenes</h1>
+    <p><b>Imagen Externa</b></p>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+      width="200" height="200" alt="img-html">
 
-  <h3>No Ordenadas</h3>
+    <p><b>Imagen Local</b></p>
+    <img src="./assets/img/imagen.png" width="200" height="200" alt="img-html-css-js">
+  </section>
 
-  <p>Países del mundo</p>
+  <section>
+    <h1 id="listas">Listas</h1>
+    <h3>Ordenadas</h3>
+    <ol start="3" reversed>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      ...
+      <li>Elemento N</li>
+    </ol>
+    <p>Ordenamos por números</p>
 
-  <ul>
-    <li>Argentina</li>
-    <li>Perú</li>
-    <li>Chile</li>
-  </ul>
-  
-  <ul type="square">
-    <li>Elemento 1
-    <li>Elemento 2
-    <li>Elemento 3
-    <li type="circle">Elemento 4
-  </ul>
+    <ol type="1">
+      <li>Elemento 1
+      <li> Elemento 2
+    </ol>
 
-  <h3>Listo por Definicion</h3>
-  <!-- Algunos usos comunes para este elemento son implementar un glosario -->
-  <p>Diccionario de la Real Academia</p>
-  <!-- lista de definiciones -->
-  <dl>
-    <!-- termino de la deficion -->
-    <dt>Brujula
-      <!-- descripcion del termino -->
-    <dd>Señórula montada en una escóbula
-    <dt>Oreja
-    <dd>Sesenta minutejos
-  </dl>
+    <p>Ordenamos por letras</p>
+    <ol type="a">
+      <li>Elemento a
+      <li> Elemento b
+    </ol>
 
-  <dl>
-    <dt>Oreja
-    <dd>Primer nivel de desplazamiento
-      <dl>
-        <dd>Segundo nivel de desplazamiento
-          <dl>
-            <dd>Tercer nivel de desplazamiento
-          </dl>
-      </dl>
-    </dd>
-  </dl>
+    <p>Ordenamos por números romanos empezando por el 10</p>
 
+    <ol type="I" start="10">
+      <li>Elemento x
+      <li> Elemento xi
+    </ol>
+
+    <h3>No Ordenadas</h3>
+
+    <p>Países del mundo</p>
+
+    <ul>
+      <li>Argentina</li>
+      <li>Perú</li>
+      <li>Chile</li>
+    </ul>
+
+    <ul type="square">
+      <li>Elemento 1
+      <li>Elemento 2
+      <li>Elemento 3
+      <li type="circle">Elemento 4
+    </ul>
+
+    <h3>Listas por Definicion</h3>
+    <!-- Algunos usos comunes para este elemento son implementar un glosario -->
+    <p>Diccionario de la Real Academia</p>
+    <!-- lista de definiciones -->
+    <dl>
+      <!-- termino de la deficion -->
+      <dt>Brujula
+        <!-- descripcion del termino -->
+      <dd>Señórula montada en una escóbula
+      <dt>Oreja
+      <dd>Sesenta minutejos
+    </dl>
+
+    <dl>
+      <dt>Oreja
+      <dd>Primer nivel de desplazamiento
+        <dl>
+          <dd>Segundo nivel de desplazamiento
+            <dl>
+              <dd>Tercer nivel de desplazamiento
+            </dl>
+        </dl>
+      </dd>
+    </dl>
+  </section>
+
+  <section>
+    <h1 id="enlaces">Enlaces</h1>
+    <ul>
+      <li>
+        <a href="https://google.com" no-referrer target="_blank">Website</a>
+      </li>
+      <li>
+        <a href="mailto:maximopeoficiales@gmail.com">Email</a>
+      </li>
+      <li>
+        <a href="tel:+51928644700">Phone</a>
+      </li>
+      <!-- solo funciona cuando es del mismo dominio -->
+      <li>
+        <a download="610979594db72.jpeg" href="assets/img/imagen.png">Descargar Imagen</a>
+        <img src="./assets/img/imagen.png" width="200" height="200" alt="img-html-css-js">
+      </li>
+    </ul>
+
+  </section>
 
 
 </body>
